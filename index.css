@@ -26,6 +26,7 @@ header {
 }
 
 body {
+    height: 1vh;
     background: linear-gradient(180deg, #FFFFFF 33.29%, #F7F8FC 100%);
 }
 
