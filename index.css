@@ -150,7 +150,25 @@ button {
     /* box-sizing: inherit; */
 }
 
+.accept-button:hover {
+    background: #DBFFF4;
+    box-shadow: 0px 10px 20px 0px #CCF1E6;
+}
 
+.reject-button:hover {
+    box-shadow: 0px 10px 20px 0px #EDD9DF;
+    background: #FFE7EF;
+}
+
+.reject-button:hover,
+.reject-button:active,
+.reject-button:focus,
+.accept-button:hover,
+.accept-button:active,
+.accept-button:focus {
+    cursor: pointer;
+    outline: none;
+}
 
 
 
@@ -161,25 +179,7 @@ button {
 
 
 @media (hover: hover) {
-    .accept-button:hover {
-        background: #DBFFF4;
-        box-shadow: 0px 10px 20px 0px #CCF1E6;
-    }
-
-    .reject-button:hover {
-        box-shadow: 0px 10px 20px 0px #EDD9DF;
-        background: #FFE7EF;
-    }
-
-    .reject-button:hover,
-    .reject-button:active,
-    .reject-button:focus,
-    .accept-button:hover,
-    .accept-button:active,
-    .accept-button:focus {
-        cursor: pointer;
-        outline: none;
-    }
+    
 }
 
 
