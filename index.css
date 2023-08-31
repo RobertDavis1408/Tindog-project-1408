@@ -160,9 +160,7 @@ button {
     outline: none;
 }
 
-.reject-button:hover,
-.reject-button:active,
-.reject-button:focus {
+.reject-button:hover {
     box-shadow: 0px 10px 20px 0px #EDD9DF;
     background: #FFE7EF;
 }
@@ -171,8 +169,7 @@ button {
     color:  linear-gradient(228.9deg, #00D894 10.21%, #56E9CD 71.53%);
 }
 
-.accept-button:hover,
-.accept-button:active {
+.accept-button:hover {
     background: #DBFFF4;
     box-shadow: 0px 10px 20px 0px #CCF1E6;
 }
