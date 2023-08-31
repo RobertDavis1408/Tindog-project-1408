@@ -65,10 +65,10 @@ header {
 .end-list-container {
     display: flex;
     margin: 2rem auto;
-    width: 100%;
+    width: 95%;
     height: 300px;
     max-width: 550px;
-    align-items: center;
+    text-align: center;
     padding: 0 .5em;
     text-align: center;
     border: solid 2px red;
