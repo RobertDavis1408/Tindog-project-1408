@@ -72,6 +72,7 @@ header {
     padding: 0 .5em;
     text-align: center;
     border: solid 2px red;
+    justify-content: center;
     
 }
 
